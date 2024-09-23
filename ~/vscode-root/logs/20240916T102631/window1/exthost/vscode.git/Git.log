@@ -1,0 +1,30 @@
+2024-09-16 10:26:37.600 [info] [main] Log level: Info
+2024-09-16 10:26:37.600 [info] [main] Validating found git in: "git"
+2024-09-16 10:26:37.600 [info] [main] Using git "2.34.1" from "git"
+2024-09-16 10:26:37.600 [info] [Model][doInitialScan] Initial repository scan started
+2024-09-16 10:26:37.600 [info] > git rev-parse --show-toplevel [4ms]
+2024-09-16 10:26:37.600 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-09-16 10:26:37.607 [info] [Model][openRepository] Opened repository: /home/local/JEMS/jmanandraibe/Bureau/Jopret/React/lasako/nextjs-dashboard
+2024-09-16 10:26:37.614 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-16 10:26:37.614 [info] > git config --get commit.template [4ms]
+2024-09-16 10:26:37.622 [info] > git rev-parse --show-toplevel [5ms]
+2024-09-16 10:26:37.636 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2024-09-16 10:26:37.644 [info] > git rev-parse --show-toplevel [8ms]
+2024-09-16 10:26:37.652 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-16 10:26:37.655 [info] > git status -z -uall [4ms]
+2024-09-16 10:26:37.655 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-16 10:26:37.657 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-09-16 10:26:37.674 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-09-16 10:26:37.679 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-16 10:26:37.681 [info] > git config --get commit.template [7ms]
+2024-09-16 10:26:37.684 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [3ms]
+2024-09-16 10:26:37.695 [info] > git merge-base refs/heads/main refs/remotes/origin/main [7ms]
+2024-09-16 10:26:37.723 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [26ms]
+2024-09-16 10:26:37.726 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [32ms]
+2024-09-16 10:26:37.778 [info] > git diff --name-status -z --diff-filter=ADMR 3fbd33cef0393a0f0af5696d1ac6bd21ca7d6a51...refs/remotes/origin/main [52ms]
+2024-09-16 10:26:37.789 [info] > git status -z -uall [4ms]
+2024-09-16 10:26:37.801 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-09-16 10:26:37.873 [info] > git config --local branch.main.vscode-merge-base [68ms]
+2024-09-16 10:26:37.881 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [5ms]
+2024-09-16 10:26:38.128 [info] > git check-ignore -v -z --stdin [0ms]
+2024-09-16 10:26:39.796 [info] > git check-ignore -v -z --stdin [6ms]

@@ -1,0 +1,4 @@
+2024-09-23 10:24:32.343 [info] Started local extension host with pid 35400.
+2024-09-23 10:24:34.967 [info] [perf] Render performance baseline is 20ms
+2024-09-23 10:24:45.119 [warning] [backup tracker] suspended, ignoring unregister event file:///home/local/JEMS/jmanandraibe/Bureau/Jopret/React/lasako/nextjs-dashboard/.next/package.json 
+2024-09-23 10:24:45.119 [warning] [backup tracker] suspended, ignoring unregister event file:///home/local/JEMS/jmanandraibe/Bureau/Jopret/React/lasako/nextjs-dashboard/package.json 
